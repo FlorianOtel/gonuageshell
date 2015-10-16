@@ -1,9 +1,10 @@
 # GoNuageShell
-A simple shell for testing the Golang library for Nuage Networks API. Based on abiosoft/ishell
 
-As the name implies, it is a (rather crude), interactive shell wrtiten as a wrapper around Golang libraries for Nuage Networks API (e.g. https://github.com/FlorianOtel/nuage_v3_2 for version v3.2 of the API). Its main purpose of this "shell" is to test those libraries.
+It is a (rather crude), interactive shell wrtiten as a wrapper around Golang libraries for Nuage Networks API (see e.g. https://github.com/FlorianOtel/nuage_v3_2 for version v3.2 of the API). Based on abiosoft/ishell
 
- Currently only version v3.2 of the Nuage Networks API is implemented (in terms of both library and support in this shell). Other versions as they are released / requested.
+The main purpose of this "shell" is to test those libraries and showcase their usage.
+
+ Currently only version v3.2 of the Nuage Networks API is implemented -- in terms of both the underlying library and, respectively, support in this shell. Other versions of the API will be implemented as they are released and/or requested.
 
 This is provided "as such", without any official support.
 
@@ -11,8 +12,8 @@ Thanks in advance for feedback, questions or raising issues -- much appreciated.
 
 ## Usage
 
-There are two types of commands:
-* Auxiliary commands for E.g.: Displaying the details of (existing) API connection (currently a single API connection is supported at one time); Setting the debug level (only two levels supported -- a verbose "Debug" level and "Info"); Setting the API connection details (API endpoint and credentials) and initializing a connection
+There are two types of shell commands:
+* Auxiliary commands for E.g.: Displaying the details of (existing) API connection. Currently a single API connection is supported at one time; Setting the debug level (only two levels supported -- a verbose "Debug" level and "Info"); Setting the API connection details (API endpoint and credentials) and initializing a connection
 
 * Wrappers around the Nuage Networks API calls themselves: "GET", "CREATE", "DELETE" etc. See below for commands currently supported.
 
@@ -58,9 +59,9 @@ Nuage API connection established
 
 Each command has a 1-1 correspondence with the underlying library calls.
 
-They require that a valid API connection is first established with the help of `makeconn` command above.
+They require that a valid API connection is established first (using the `makeconn` command above).
 
-Currently the following commands are supported:
+Currently the following shell commands are supported. For more details and examples on how they use the API library please see `main.go`
 
 ```
 #### GET operations
