@@ -1,0 +1,35 @@
+{
+	"ImportPath": "github.com/FlorianOtel/gonuageshell",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/FlorianOtel/nuage",
+			"Rev": "9cdbccec99f0b17a01394d98e7fa2f217d36e6cd"
+		},
+		{
+			"ImportPath": "github.com/FlorianOtel/nuage_v3_2",
+			"Rev": "db12592d65600320109a12129ebd6c3dfef14c10"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.8.7",
+			"Rev": "418b41d23a1bf978c06faea5313ba194650ac088"
+		},
+		{
+			"ImportPath": "github.com/abiosoft/ishell",
+			"Rev": "fe51acab638598d7c5a5ea705c0b242690d8d95a"
+		},
+		{
+			"ImportPath": "github.com/flynn/go-shlex",
+			"Rev": "3f9db97f856818214da2e1057f8ad84803971cff"
+		},
+		{
+			"ImportPath": "github.com/howeyc/gopass",
+			"Rev": "10b54de414cc9693221d5ff2ae14fd2fbf1b0ac1"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "aedad9a179ec1ea11b7064c57cbc6dc30d7724ec"
+		}
+	]
+}

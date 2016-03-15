@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"net"
 
-	nuage "github.com/FlorianOtel/nuage"
+	nuage "github.com/FlorianOtel/gonuageshell/Godeps/_workspace/src/github.com/FlorianOtel/nuage"
 
-	nuage_v3_2 "github.com/FlorianOtel/nuage_v3_2"
+	nuage_v3_2 "github.com/FlorianOtel/gonuageshell/Godeps/_workspace/src/github.com/FlorianOtel/nuage_v3_2"
 
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/FlorianOtel/gonuageshell/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 
-	"github.com/abiosoft/ishell"
+	"github.com/FlorianOtel/gonuageshell/Godeps/_workspace/src/github.com/abiosoft/ishell"
 )
 
 var (
